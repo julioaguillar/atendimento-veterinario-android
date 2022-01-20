@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutAdapterAnimal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtNameAnimalAdapter"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/dark_blue" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutClientAnimalAdapter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtDescNameClientAnimalAdapter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/client"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/grey"
+            android:textStyle="bold"
+            tools:ignore="TextContrastCheck" />
+
+        <TextView
+            android:id="@+id/txtNameClientAnimalAdapter"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/dark_green" />
+
+    </LinearLayout>
+
+</LinearLayout>

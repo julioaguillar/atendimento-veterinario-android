@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="options_client">
+		<item>@string/alter</item>
+    	<item>@string/delete</item>
+		<item>@string/show_animals</item>
+		<item>@string/send_mail</item>
+		<item>@string/call</item>
+	</string-array>
+</resources>

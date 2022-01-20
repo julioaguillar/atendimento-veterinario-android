@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtProductCustomerServiceItemAdapter"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/dark_blue" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtDescValueCustomerServiceItemAdapter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/value_item"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/grey"
+            android:textStyle="bold"
+            tools:ignore="TextContrastCheck" />
+
+        <TextView
+            android:id="@+id/txtValueCustomerServiceItemAdapter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/zero"
+            android:textAlignment="textEnd"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/dark_green" />
+
+        <TextView
+            android:id="@+id/txtDescAmountCustomerServiceItemAdapter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text="@string/amount_item"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/grey"
+            android:textStyle="bold"
+            tools:ignore="TextContrastCheck" />
+
+        <TextView
+            android:id="@+id/txtAmountCustomerServiceItemAdapter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/zero"
+            android:textAlignment="textEnd"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/dark_green" />
+
+        <TextView
+            android:id="@+id/txtDescTotalCustomerServiceItemAdapter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text="@string/total_item"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/grey"
+            android:textStyle="bold"
+            tools:ignore="TextContrastCheck" />
+
+        <TextView
+            android:id="@+id/txtTotalCustomerServiceItemAdapter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/zero"
+            android:textAlignment="textEnd"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/dark_green" />
+
+    </LinearLayout>
+
+</LinearLayout>

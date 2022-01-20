@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".ProductAddActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="10dp">
+
+        <TextView
+            android:id="@+id/txtDescDescriptionProduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/description"
+            tools:ignore="TextContrastCheck" />
+
+        <EditText
+            android:id="@+id/txtDescriptionProduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/speaker_description"
+            android:importantForAutofill="no"
+            android:inputType="text|textCapWords"
+            android:minHeight="48dp"
+            tools:ignore="TextContrastCheck" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="10dp">
+
+        <TextView
+            android:id="@+id/txtDescUnityProduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/unity"
+            tools:ignore="TextContrastCheck" />
+
+        <EditText
+            android:id="@+id/txtUnityProduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/speaker_unity"
+            android:importantForAutofill="no"
+            android:inputType="text|textCapCharacters"
+            android:minHeight="48dp"
+            tools:ignore="TextContrastCheck" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="10dp">
+
+        <TextView
+            android:id="@+id/txtDescValueProduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/value"
+            tools:ignore="TextContrastCheck" />
+
+        <EditText
+            android:id="@+id/txtValueProduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:digits="1234567890."
+            android:hint="@string/speaker_value"
+            android:importantForAutofill="no"
+            android:inputType="numberDecimal"
+            android:minHeight="48dp"
+            tools:ignore="TextContrastCheck" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtDescNoteProduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/note"
+            tools:ignore="TextContrastCheck" />
+
+        <EditText
+            android:id="@+id/txtNoteProduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/speaker_note"
+            android:importantForAutofill="no"
+            android:inputType="textMultiLine|text|textCapSentences"
+            android:maxLines="4"
+            android:minHeight="48dp"
+            android:singleLine="false"
+            tools:ignore="TextContrastCheck" />
+
+    </LinearLayout>
+
+</LinearLayout>

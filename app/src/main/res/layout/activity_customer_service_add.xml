@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".CustomerServiceAddActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtDescDateCustomerService"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/date_customer_service"
+            tools:ignore="TextContrastCheck" />
+
+        <EditText
+            android:id="@+id/txtDateCustomerService"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:hint="@string/speaker_customer_service_date"
+            android:importantForAutofill="no"
+            android:inputType="date"
+            android:minHeight="48dp"
+            tools:ignore="DuplicateSpeakableTextCheck,TextContrastCheck" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="10dp">
+
+        <TextView
+            android:id="@+id/txtDescClientCustomerService"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/client"
+            android:textColor="@color/dark_grey" />
+
+        <Button
+            android:id="@+id/btnClientCustomerService"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_click"
+            android:gravity="center"
+            android:hint="@string/btn_selection"
+            tools:ignore="TextContrastCheck,DuplicateSpeakableTextCheck" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="10dp">
+
+        <TextView
+            android:id="@+id/txtDescAnimalCustomerService"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/animal"
+            android:textColor="@color/dark_grey" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnAnimalCustomerService"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/button_click"
+                android:gravity="center"
+                android:hint="@string/btn_selection"
+                tools:ignore="TextContrastCheck" />
+
+            <ImageView
+                android:id="@+id/imgAnimalCustomerService"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/description_image"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                app:srcCompat="@drawable/ic_clear" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="10dp">
+
+        <TextView
+            android:id="@+id/txtDescNoteCustomerService"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/note"
+            android:textColor="@color/dark_grey" />
+
+        <EditText
+            android:id="@+id/txtNoteCustomerService"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start|top"
+            android:hint="@string/speaker_note"
+            android:importantForAutofill="no"
+            android:inputType="text|textCapSentences"
+            android:minHeight="48dp"
+            tools:ignore="TextContrastCheck" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtDesProductService"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:text="@string/products_services"
+            tools:ignore="TextContrastCheck" />
+
+        <ListView
+            android:id="@+id/lstProductService"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:listitem="@layout/adapter_customer_service_item" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="5dp">
+
+        <TextView
+            android:id="@+id/txtDescTotalCustomerService"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/total"
+            android:textAlignment="textEnd"
+            android:textColor="@color/dark_green"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtTotalCustomerService"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/zero"
+            android:textAlignment="textEnd"
+            android:textColor="@color/dark_green"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

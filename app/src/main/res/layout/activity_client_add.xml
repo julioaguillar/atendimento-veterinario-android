@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".ClientAddActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="10dp">
+
+        <TextView
+            android:id="@+id/txtDescNameClient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/name"
+            tools:ignore="TextContrastCheck" />
+
+        <EditText
+            android:id="@+id/txtNameClient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/speaker_name"
+            android:importantForAutofill="no"
+            android:inputType="text|textCapWords"
+            android:minHeight="48dp"
+            tools:ignore="TextContrastCheck" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="10dp">
+
+        <TextView
+            android:id="@+id/txtDescAddressClient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/address"
+            tools:ignore="TextContrastCheck" />
+
+        <EditText
+            android:id="@+id/txtAddressClient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/speaker_address"
+            android:importantForAutofill="no"
+            android:inputType="text|textCapWords"
+            android:minHeight="48dp"
+            tools:ignore="TextContrastCheck" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="10dp">
+
+        <TextView
+            android:id="@+id/txtDescTelephoneClient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/telephone"
+            tools:ignore="TextContrastCheck" />
+
+        <EditText
+            android:id="@+id/txtTelephoneClient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/speaker_telephone"
+            android:importantForAutofill="no"
+            android:inputType="phone"
+            android:minHeight="48dp"
+            tools:ignore="TextContrastCheck" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtDescEmailClient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/email"
+            tools:ignore="TextContrastCheck" />
+
+        <EditText
+            android:id="@+id/txtEmailClient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/speaker_email"
+            android:importantForAutofill="no"
+            android:inputType="textWebEmailAddress"
+            android:minHeight="48dp"
+            tools:ignore="TextContrastCheck" />
+    </LinearLayout>
+
+</LinearLayout>

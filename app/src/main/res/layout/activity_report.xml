@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".ReportActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayoutReport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/txtDescClientReport"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/client"
+            android:textColor="@color/dark_grey" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnClientReport"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/button_click"
+                android:gravity="center"
+                android:hint="@string/btn_selection"
+                tools:ignore="TextContrastCheck,DuplicateSpeakableTextCheck" />
+
+            <ImageView
+                android:id="@+id/imgClientReport"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/description_image"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                app:srcCompat="@drawable/ic_clear" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutReport2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayoutReport">
+
+        <TextView
+            android:id="@+id/txtDescAnimalReport"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/animal"
+            android:textColor="@color/dark_grey" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnAnimalReport"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/button_click"
+                android:gravity="center"
+                android:hint="@string/btn_selection"
+                tools:ignore="TextContrastCheck" />
+
+            <ImageView
+                android:id="@+id/imgAnimalReport"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/description_image"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                app:srcCompat="@drawable/ic_clear" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutReport3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayoutReport2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtDescFirstDateReport"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/start_date"
+                tools:ignore="TextContrastCheck" />
+
+            <EditText
+                android:id="@+id/txtFirstDateReport"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:hint="@string/start_date"
+                android:importantForAutofill="no"
+                android:inputType="date"
+                android:minHeight="48dp"
+                tools:ignore="DuplicateSpeakableTextCheck,TextContrastCheck" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtDescLastDateReport"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/last_date"
+                tools:ignore="TextContrastCheck" />
+
+            <EditText
+                android:id="@+id/txtLastDateReport"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:hint="@string/last_date"
+                android:importantForAutofill="no"
+                android:inputType="date"
+                android:minHeight="48dp"
+                tools:ignore="DuplicateSpeakableTextCheck,TextContrastCheck" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBarReport"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnVisualizarRelatorio"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_button"
+        android:text="@string/show_last_report"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

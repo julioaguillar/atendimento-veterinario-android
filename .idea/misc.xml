@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Projetos/Android/Aonvet/app/src/main/res/drawable-anydpi/background_splash.xml" value="0.22135416666666666" />
+        <entry key="..\:/Projetos/Android/Aonvet/app/src/main/res/drawable-hdpi/background_button_cancelar.xml" value="0.22135416666666666" />
+        <entry key="..\:/Projetos/Android/Aonvet/app/src/main/res/drawable-hdpi/background_button_salvar.xml" value="0.22135416666666666" />
+        <entry key="..\:/Projetos/Android/Aonvet/app/src/main/res/drawable/background_button.xml" value="0.3171875" />
+        <entry key="..\:/Projetos/Android/Aonvet/app/src/main/res/drawable/background_main.xml" value="0.3171875" />
+        <entry key="..\:/Projetos/Android/Aonvet/app/src/main/res/drawable/botao_produto.xml" value="0.3171875" />
+        <entry key="..\:/Projetos/Android/Aonvet/app/src/main/res/drawable/button_click.xml" value="0.2953125" />
+        <entry key="..\:/Projetos/Android/Aonvet/app/src/main/res/drawable/button_design.xml" value="0.22135416666666666" />
+        <entry key="..\:/Projetos/Android/Aonvet/app/src/main/res/drawable/button_design02.xml" value="0.2953125" />
+        <entry key="..\:/Projetos/Android/Aonvet/app/src/main/res/drawable/cadastro_cliente.xml" value="0.3171875" />
+        <entry key="..\:/Projetos/Android/Aonvet/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3171875" />
+        <entry key="..\:/Projetos/Android/Aonvet/app/src/main/res/drawable/rounded_corner.xml" value="0.3171875" />
+        <entry key="..\:/Projetos/Android/Aonvet/app/src/main/res/layout-sw600dp/activity_main.xml" value="0.41201456310679613" />
+        <entry key="..\:/Projetos/Android/Aonvet/app/src/main/res/layout-sw600dp/activity_splash_screen.xml" value="0.41201456310679613" />
+        <entry key="..\:/Projetos/Android/Aonvet/app/src/main/res/layout/activity_animal.xml" value="0.20520833333333333" />
+        <entry key="..\:/Projetos/Android/Aonvet/app/src/main/res/layout/activity_animal_cadastro.xml" value="0.2803442028985507" />
+        <entry key="..\:/Projetos/Android/Aonvet/app/src/main/res/layout/activity_atendimento.xml" value="0.20520833333333333" />
+        <entry key="..\:/Projetos/Android/Aonvet/app/src/main/res/layout/activity_cliente.xml" value="0.3120471014492754" />
+        <entry key="..\:/Projetos/Android/Aonvet/app/src/main/res/layout/activity_cliente_cadastro.xml" value="0.2515625" />
+        <entry key="..\:/Projetos/Android/Aonvet/app/src/main/res/layout/activity_main.xml" value="0.2869791666666667" />
+        <entry key="..\:/Projetos/Android/Aonvet/app/src/main/res/layout/activity_produto.xml" value="0.20520833333333333" />
+        <entry key="..\:/Projetos/Android/Aonvet/app/src/main/res/layout/activity_produto_cadastro.xml" value="0.28532608695652173" />
+        <entry key="..\:/Projetos/Android/Aonvet/app/src/main/res/layout/activity_relatorio.xml" value="0.20520833333333333" />
+        <entry key="..\:/Projetos/Android/Aonvet/app/src/main/res/layout/activity_splash_screen.xml" value="0.307518115942029" />
+        <entry key="..\:/Projetos/Android/Aonvet/app/src/main/res/layout/adapter_animal.xml" value="0.2803442028985507" />
+        <entry key="..\:/Projetos/Android/Aonvet/app/src/main/res/layout/adapter_cliente.xml" value="0.29846014492753625" />
+        <entry key="..\:/Projetos/Android/Aonvet/app/src/main/res/layout/adapter_produto.xml" value="0.28125" />
+        <entry key="..\:/Projetos/Android/Aonvet/app/src/main/res/layout/fragment_consulta_cliente.xml" value="0.2749094202898551" />
+        <entry key="..\:/Projetos/Android/Aonvet/app/src/main/res/mipmap-anydpi-v26/ic_cadastro_produto_round.xml" value="0.3171875" />
+        <entry key="..\:/Projetos/Android/Appvet/app/src/main/res/drawable-anydpi/background_splash.xml" value="0.3125" />
+        <entry key="..\:/Projetos/Android/Appvet/app/src/main/res/drawable/background_button.xml" value="0.3125" />
+        <entry key="..\:/Projetos/Android/Appvet/app/src/main/res/drawable/background_main.xml" value="0.3125" />
+        <entry key="..\:/Projetos/Android/Appvet/app/src/main/res/drawable/button_click.xml" value="0.3125" />
+        <entry key="..\:/Projetos/Android/Appvet/app/src/main/res/drawable/button_design.xml" value="0.3125" />
+        <entry key="..\:/Projetos/Android/Appvet/app/src/main/res/drawable/button_design02.xml" value="0.3125" />
+        <entry key="..\:/Projetos/Android/Appvet/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.31145833333333334" />
+        <entry key="..\:/Projetos/Android/Appvet/app/src/main/res/font/consola_font_family.xml" value="0.2675925925925926" />
+        <entry key="..\:/Projetos/Android/Appvet/app/src/main/res/layout-sw600dp/activity_main.xml" value="0.3537621359223301" />
+        <entry key="..\:/Projetos/Android/Appvet/app/src/main/res/layout-sw600dp/activity_product_search.xml" value="0.29975728155339804" />
+        <entry key="..\:/Projetos/Android/Appvet/app/src/main/res/layout-sw600dp/activity_splash_screen.xml" value="0.3537621359223301" />
+        <entry key="..\:/Projetos/Android/Appvet/app/src/main/res/layout-sw600dp/adapter_atendimento_item.xml" value="0.3919902912621359" />
+        <entry key="..\:/Projetos/Android/Appvet/app/src/main/res/layout/activity_animal.xml" value="0.24682971014492755" />
+        <entry key="..\:/Projetos/Android/Appvet/app/src/main/res/layout/activity_animal_add.xml" value="0.24592391304347827" />
+        <entry key="..\:/Projetos/Android/Appvet/app/src/main/res/layout/activity_animal_cadastro.xml" value="0.2586050724637681" />
+        <entry key="..\:/Projetos/Android/Appvet/app/src/main/res/layout/activity_animal_search.xml" value="0.223731884057971" />
+        <entry key="..\:/Projetos/Android/Appvet/app/src/main/res/layout/activity_atendimento.xml" value="0.2586050724637681" />
+        <entry key="..\:/Projetos/Android/Appvet/app/src/main/res/layout/activity_atendimento_cadastro.xml" value="0.25" />
+        <entry key="..\:/Projetos/Android/Appvet/app/src/main/res/layout/activity_atendimento_item_cadastro.xml" value="0.33" />
+        <entry key="..\:/Projetos/Android/Appvet/app/src/main/res/layout/activity_client.xml" value="0.2509057971014493" />
+        <entry key="..\:/Projetos/Android/Appvet/app/src/main/res/layout/activity_client_adapter.xml" value="0.2296195652173913" />
+        <entry key="..\:/Projetos/Android/Appvet/app/src/main/res/layout/activity_client_add.xml" value="0.24592391304347827" />
+        <entry key="..\:/Projetos/Android/Appvet/app/src/main/res/layout/activity_client_search.xml" value="0.223731884057971" />
+        <entry key="..\:/Projetos/Android/Appvet/app/src/main/res/layout/activity_cliente.xml" value="0.2586050724637681" />
+        <entry key="..\:/Projetos/Android/Appvet/app/src/main/res/layout/activity_cliente_cadastro.xml" value="0.2586050724637681" />
+        <entry key="..\:/Projetos/Android/Appvet/app/src/main/res/layout/activity_configuracao.xml" value="0.2760416666666667" />
+        <entry key="..\:/Projetos/Android/Appvet/app/src/main/res/layout/activity_customer_service.xml" value="0.24592391304347827" />
+        <entry key="..\:/Projetos/Android/Appvet/app/src/main/res/layout/activity_customer_service_add.xml" value="0.24592391304347827" />
+        <entry key="..\:/Projetos/Android/Appvet/app/src/main/res/layout/activity_customer_service_item_add.xml" value="0.24592391304347827" />
+        <entry key="..\:/Projetos/Android/Appvet/app/src/main/res/layout/activity_main.xml" value="0.26403985507246375" />
+        <entry key="..\:/Projetos/Android/Appvet/app/src/main/res/layout/activity_product.xml" value="0.2509057971014493" />
+        <entry key="..\:/Projetos/Android/Appvet/app/src/main/res/layout/activity_product_add.xml" value="0.24592391304347827" />
+        <entry key="..\:/Projetos/Android/Appvet/app/src/main/res/layout/activity_product_search.xml" value="0.3106796116504854" />
+        <entry key="..\:/Projetos/Android/Appvet/app/src/main/res/layout/activity_produto.xml" value="0.24635416666666668" />
+        <entry key="..\:/Projetos/Android/Appvet/app/src/main/res/layout/activity_produto_cadastro.xml" value="0.2586050724637681" />
+        <entry key="..\:/Projetos/Android/Appvet/app/src/main/res/layout/activity_relatorio.xml" value="0.24635416666666668" />
+        <entry key="..\:/Projetos/Android/Appvet/app/src/main/res/layout/activity_report.xml" value="0.24592391304347827" />
+        <entry key="..\:/Projetos/Android/Appvet/app/src/main/res/layout/activity_settings.xml" value="0.24592391304347827" />
+        <entry key="..\:/Projetos/Android/Appvet/app/src/main/res/layout/activity_show_pdf.xml" value="0.24592391304347827" />
+        <entry key="..\:/Projetos/Android/Appvet/app/src/main/res/layout/activity_splash_screen.xml" value="0.26403985507246375" />
+        <entry key="..\:/Projetos/Android/Appvet/app/src/main/res/layout/activity_visualizar_pdf.xml" value="0.2640218878248974" />
+        <entry key="..\:/Projetos/Android/Appvet/app/src/main/res/layout/adapter_animal.xml" value="0.24635416666666668" />
+        <entry key="..\:/Projetos/Android/Appvet/app/src/main/res/layout/adapter_atendimento.xml" value="0.2586050724637681" />
+        <entry key="..\:/Projetos/Android/Appvet/app/src/main/res/layout/adapter_atendimento_item.xml" value="0.3919902912621359" />
+        <entry key="..\:/Projetos/Android/Appvet/app/src/main/res/layout/adapter_client.xml" value="0.24592391304347827" />
+        <entry key="..\:/Projetos/Android/Appvet/app/src/main/res/layout/adapter_cliente.xml" value="0.2586050724637681" />
+        <entry key="..\:/Projetos/Android/Appvet/app/src/main/res/layout/adapter_customer_service.xml" value="0.24592391304347827" />
+        <entry key="..\:/Projetos/Android/Appvet/app/src/main/res/layout/adapter_customer_service_item.xml" value="0.24592391304347827" />
+        <entry key="..\:/Projetos/Android/Appvet/app/src/main/res/layout/adapter_lancamento.xml" value="0.2586050724637681" />
+        <entry key="..\:/Projetos/Android/Appvet/app/src/main/res/layout/adapter_product.xml" value="0.24592391304347827" />
+        <entry key="..\:/Projetos/Android/Appvet/app/src/main/res/layout/adapter_produto.xml" value="0.2586050724637681" />
+        <entry key="..\:/Projetos/Android/Appvet/app/src/main/res/layout/adapter_search_client.xml" value="0.2296195652173913" />
+        <entry key="..\:/Projetos/Android/Appvet/app/src/main/res/layout/fragment_client_search.xml" value="0.24320652173913043" />
+        <entry key="..\:/Projetos/Android/Appvet/app/src/main/res/menu/add_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projetos/Android/Appvet/app/src/main/res/menu/close.xml" value="0.2125" />
+        <entry key="..\:/Projetos/Android/Appvet/app/src/main/res/menu/compartilhar_menu.xml" value="0.19583333333333333" />
+        <entry key="..\:/Projetos/Android/Appvet/app/src/main/res/menu/imprimir_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projetos/Android/Appvet/app/src/main/res/menu/incluir_item_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projetos/Android/Appvet/app/src/main/res/menu/insert.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projetos/Android/Appvet/app/src/main/res/menu/relatorio_menu.xml" value="0.33" />
+        <entry key="..\:/Projetos/Android/Appvet/app/src/main/res/menu/report.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projetos/Android/Appvet/app/src/main/res/menu/salvar_menu.xml" value="0.33" />
+        <entry key="..\:/Projetos/Android/Appvet/app/src/main/res/menu/save.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projetos/Android/Appvet/app/src/main/res/menu/share.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projetos/Android/Appvet/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2916666666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.2869791666666667" />
+      </ProjectState>
+    </option>
+  </component>
+</project>
